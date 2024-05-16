@@ -51,15 +51,18 @@ Tab:AddButton({
 })
 
 Tab2:AddToggle({
-                    Name = "Beta X",
-                    Default = false,
-                    Callback = function(Value)
-AutoEnterArena = Value
-while AutoEnterArena do
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 25 , 0)
-end
-                })
-
+    Name = "Custom mitten",
+    Default = false,
+    Callback= function(Value)
+        Cmitton = Value
+        while Cmitton do
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10004, 15, 9994)
+            wait(0.5)
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(10004, 15, 9994)
+            
+        end
+    end
+})
 
 
 
