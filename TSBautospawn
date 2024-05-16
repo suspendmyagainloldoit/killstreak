@@ -57,9 +57,6 @@ Tab2:AddToggle({
 AutoEnterArena = Value
 while AutoEnterArena do
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, 25 , 0)
-    end
-task.wait()
-end
 end
                 })
 
